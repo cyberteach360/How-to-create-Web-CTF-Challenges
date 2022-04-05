@@ -12,7 +12,7 @@ if(isset($msg)){
 	 $flag='IEEEIUCS-CTF{Easy_XSS_FOR_YOU}';
   $msg= $msg;
 }
- else if($msg=='<<SCRIPT>alert("XSS");//<</SCRIPT>'){
+ else if($msg=='<<SCRIPT>alert("flag");//<</SCRIPT>'){
 	 $flag='IEEEIUCS-CTF{Easy_XSS_FOR_YOU}';
   $msg= $msg;
 }
@@ -20,7 +20,7 @@ if(isset($msg)){
 	 $flag='IEEEIUCS-CTF{Easy_XSS_FOR_YOU}';
   $msg= $msg;
 }
- else if($msg=="<img/src=`` onerror=this.onerror=confirm(1)"){
+ else if($msg=="<img/src=`` onerror=this.onerror=confirm(flag)"){
 	 $flag='IEEEIUCS-CTF{Easy_XSS_FOR_YOU}';
   $msg= $msg;
 }
